@@ -43,12 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data-Types\DataTypes.cs" />
+    <Compile Include="Caller_Class\CallerClass.cs" />
+    <Compile Include="Console_Methods_Props\ConsoleMethods.cs" />
+    <Compile Include="Console_Methods_Props\PropertiesOfConsole.cs" />
+    <Compile Include="Data_Types\DataTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

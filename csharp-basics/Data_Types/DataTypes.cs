@@ -14,12 +14,12 @@ namespace csharp_basics.Data_Types
 
         public void PointersDT() {
             
-                int number = 10;
+                //int number = 10;
 
-                int* ptr = &number;
-                Console.WriteLine($"Value :{number}");
-                Console.WriteLine($"Address :{(int)ptr}");
-                Console.ReadKey();
+                //int* ptr = &number;
+                //Console.WriteLine($"Value :{number}");
+                //Console.WriteLine($"Address :{(int)ptr}");
+                //Console.ReadKey();
             
             
         }

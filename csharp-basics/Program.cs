@@ -1,4 +1,5 @@
-﻿using csharp_basics.Data_Types;
+﻿using csharp_basics.Caller_Class;
+using csharp_basics.Data_Types;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,16 +13,11 @@ namespace csharp_basics
     {
         static void Main(string[] args)
         {
-            DataTypes dt = new DataTypes();
-            //dt.ByteDTDemo();
-            //dt.CharDTDemo();
-            //dt.StringDTDemo();
-            //dt.NumericDTWithoutDecimal();
-            //dt.NumericDTWithDecimal();
-            //dt.DataTypePerformance();
-            //dt.SizeOfPredefinedST();
-            //dt.DefaultValuesOfBuildInDT();
-            dt.PointersDT();
+            CallerClass cc= new CallerClass();
+            //Method are committed in CallerClass go and uncommited one by one
+            cc.CallDataTypes();
+            cc.CallConsoleMethodsProperties();
+
         }
     }
 }
