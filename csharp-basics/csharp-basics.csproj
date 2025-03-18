@@ -47,6 +47,9 @@
     <Compile Include="Console_Methods_Props\ConsoleMethods.cs" />
     <Compile Include="Console_Methods_Props\PropertiesOfConsole.cs" />
     <Compile Include="Data_Types\DataTypes.cs" />
+    <Compile Include="Mini_Projects\Calculator_App\Calculator_App.cs" />
+    <Compile Include="Mini_Projects\Calculator_App\Calculator_Functionality.cs" />
+    <Compile Include="Mini_Projects\Calculator_App\CalculatorApplicationView.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
