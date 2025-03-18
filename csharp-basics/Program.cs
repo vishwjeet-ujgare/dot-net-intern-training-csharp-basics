@@ -19,7 +19,8 @@ namespace csharp_basics
             //cc.CallDataTypes();
             //cc.CallConsoleMethodsProperties();
 
-           Calculator_App cal= new Calculator_App();
+            //To Run Calculator App Assignment
+            Calculator_App cal = new Calculator_App();
      
 
         }

@@ -16,6 +16,7 @@ namespace csharp_basics.Mini_Projects.Calculator_App
          
                 CalculatorApplicationView calAppView = new CalculatorApplicationView();
                 calAppView.CalWelcomeMsg();
+                calAppView.ModifyConsoleView();
 
                 Calculator_Functionality calFun = new Calculator_Functionality();
 
@@ -44,9 +45,10 @@ namespace csharp_basics.Mini_Projects.Calculator_App
 
             } while (requestForNewCalculation);
 
-                
 
-         
+            calAppView.DisplayExistMessage();
+
+
         }
     }
 }
