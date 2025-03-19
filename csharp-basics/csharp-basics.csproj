@@ -43,10 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="March_19_2025\Check_Uncheck_Demo\CheckUncheckDemo.cs" />
+    <Compile Include="March_19_2025\FlowManger_19March25.cs" />
+    <Compile Include="March_19_2025\Properties_Demo\Employee.cs" />
+    <Compile Include="March_19_2025\Properties_Demo\PropertiesDemo.cs" />
     <Compile Include="Caller_Class\CallerClass.cs" />
     <Compile Include="Console_Methods_Props\ConsoleMethods.cs" />
     <Compile Include="Console_Methods_Props\PropertiesOfConsole.cs" />
     <Compile Include="Data_Types\DataTypes.cs" />
+    <Compile Include="March_19_2025\Properties_Demo\Student.cs" />
+    <Compile Include="March_19_2025\Ref_Out_Keyword_Demo\UnderstandingRefOutKeyword.cs" />
+    <Compile Include="March_19_2025\ToString_Method_Demo\ToStringMethodDemo.cs" />
     <Compile Include="Mini_Projects\Calculator_App\Calculator_App.cs" />
     <Compile Include="Mini_Projects\Calculator_App\Calculator_Functionality.cs" />
     <Compile Include="Mini_Projects\Calculator_App\CalculatorApplicationView.cs" />
